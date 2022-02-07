@@ -125,6 +125,11 @@ h1,h2,h3,h4,h5,h6 {
    flex: none;
 }
 
+.icon-box i{
+   color: #fff;
+}
+
+
 /* portfolio section */
 .portfolio-item {
    overflow: hidden;
@@ -252,7 +257,11 @@ h1,h2,h3,h4,h5,h6 {
    background-color: transparent;
 }
 
-#testimonials .nav-pills .nav-link.active img {
+/* #testimonials .nav-pills .nav-link.active img {
+   transform: scale(1.3);
+} */
+
+#testimonials .nav-pills .nav-link:hover{
    transform: scale(1.3);
 }
 
