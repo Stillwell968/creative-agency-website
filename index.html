@@ -525,24 +525,64 @@
         </div>
     </section>
 
-    <script type="text/javascript">
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            // Get all elements with class="review" and hide them
-            tabcontent = document.getElementsByClassName("tab-pane")
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
+    <!-- footer -->
+    <footer>
+        <div class="footer-top">
+           <div class="container">
+              <div class="row gy-5">
+                 <div class="col-md-4">
+                    <h4 class="logo-text">Lissome</h4>
+                    <p>Praesent vulputate neque nec sem fermentum porttitor. Mauris eget dolor convallis, trista, dignissim sapien. Duis vel felis dictu</p>
+                    <div class="social-icons">
+                       <a href="#"><i class="bx bxl-facebook"></i></a>
+                       <a href="#"><i class="bx bxl-twitter"></i></a>
+                       <a href="#"><i class="bx bxl-instagram"></i></a>
+                       <a href="#"><i class="bx bxl-github"></i></a>
+                    </div>
+                 </div>
+                 <div class="col-md-2">
+                    <h5 class="title-sm">Navigation</h5>
+                    <div class="footer-links">
+                       <a href="#">Services</a>
+                       <a href="#">Our Work</a>
+                       <a href="#">Team</a>
+                       <a href="#">Blog</a>
+                    </div>
+                 </div>
+                 <div class="col-md-2">
+                    <h5 class="title-sm">More</h5>
+                    <div class="footer-links">
+                       <a href="#">FAQ's</a>
+                       <a href="#">Privacy & Policy</a>
+                       <a href="#">Liscences</a>
+                    </div>
+                 </div>
+                 <div class="col-md-2">
+                    <h5 class="title-sm">Contact</h5>
+                    <div class="footer-links">
+                       <p class="mb">1649 Norman Street, Los Angeles, 9001</p>
+                       <p class="mb-">8(800)316-06-42</p>
+                       <p class="mb">hello@yourdomain.com</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="footer-bottom">
+           <div class="container">
+              <div class="row justify-content-between gy-3">
+                 <div class="col-md-6">
+                    <p class="mb-0">© Agency2021. All rights reserved</p>
+                 </div>
+                 <div class="col-auto">
+                    <p class="mb-0">Created with ❤️ by SA7MAN</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
 
-            tablinks = document.getElementsByClassName("nav-linkj");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-             // Show the current tab, and add an "active" class to the link that opened the tab
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
+    <script src="index.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
 
